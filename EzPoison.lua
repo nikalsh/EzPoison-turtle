@@ -125,7 +125,6 @@ function EZP.ConfigFrame:ConfigureUI()
 	end
 	
 	self:SetScale(EZPcfg.Scale)
-	-- local backdrop = {bgFile = "Interface\\TutorialFrame\\TutorialFrameBackground",  edgeFile="Interface\\Tooltips\\UI-Tooltip-Border", tile=true,tileSize = 16, edgeSize = 16, insets = { left = 3, right = 5, top = 3, bottom = 5 }}  -- path to the background texture
 	local backdrop = {bgFile = "Interface\\TutorialFrame\\TutorialFrameBackground", tile=true,tileSize = 16, edgeSize = 16, insets = { left = 3, right = 5, top = 3, bottom = 5 }}  -- path to the background texture
 	self:SetBackdrop(backdrop)
 	self:SetBackdropColor(0,0,0,0.25)
